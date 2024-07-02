@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: navy;
+    border-left: #04AA6D solid 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+ul {
+    padding-top: 25px;
+    height: 50px;
+    background-color: #282A35;
+    text-align: center;
+}
+ul li {
+    display: inline;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20pt;
+    padding: 15px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+ul li a:hover {
+    background-color: #04AA6D;
+}
+
+.active {
+    background-color: #04AA6D;
+}
